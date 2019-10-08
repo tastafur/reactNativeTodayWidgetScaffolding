@@ -22,7 +22,7 @@
 	<string>1</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionMainStoryboard</key>
+		<key>NSExtensionPrincipalClass</key>
 		<string>TodayViewController</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.widget-extension</string>

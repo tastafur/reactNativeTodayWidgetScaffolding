@@ -12,8 +12,10 @@
 #import <React/RCTRootView.h>
 
 #import "DisplayMode.h"
+#import "Linking.h"
 
 DisplayMode* displayMode;
+Linking* linking;
 
 @interface TodayViewController () <NCWidgetProviding>
 
@@ -34,6 +36,7 @@ DisplayMode* displayMode;
   self.view = rootView;
   
   displayMode = [[DisplayMode alloc]initWithContext:self.extensionContext];
+  linking = [[Linking alloc]initWithContext:self.extensionContext];
 }
 
 - (void)viewDidLoad {

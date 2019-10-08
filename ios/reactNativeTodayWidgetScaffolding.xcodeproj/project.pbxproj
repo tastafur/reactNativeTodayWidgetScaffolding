@@ -38,6 +38,7 @@
 		45495000234C6D3B00A62019 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		45495001234C6D6B00A62019 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		45495004234C726100A62019 /* DisplayMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45495003234C726100A62019 /* DisplayMode.m */; };
+		45495066234C882F00A62019 /* Linking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45495065234C882F00A62019 /* Linking.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
@@ -351,6 +352,8 @@
 		45494FEC234C6AEE00A62019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45495002234C71FA00A62019 /* DisplayMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayMode.h; sourceTree = "<group>"; };
 		45495003234C726100A62019 /* DisplayMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayMode.m; sourceTree = "<group>"; };
+		4549503F234C880A00A62019 /* Linking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Linking.h; sourceTree = "<group>"; };
+		45495065234C882F00A62019 /* Linking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Linking.m; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -522,6 +525,8 @@
 				45494FEC234C6AEE00A62019 /* Info.plist */,
 				45495002234C71FA00A62019 /* DisplayMode.h */,
 				45495003234C726100A62019 /* DisplayMode.m */,
+				4549503F234C880A00A62019 /* Linking.h */,
+				45495065234C882F00A62019 /* Linking.m */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -655,11 +660,11 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 786U8KZNGH;
+						DevelopmentTeam = PE3XZPNW4G;
 					};
 					45494FE1234C6AED00A62019 = {
 						CreatedOnToolsVersion = 10.3;
-						DevelopmentTeam = 786U8KZNGH;
+						DevelopmentTeam = PE3XZPNW4G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1064,6 +1069,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45495066234C882F00A62019 /* Linking.m in Sources */,
 				45494FE8234C6AEE00A62019 /* TodayViewController.m in Sources */,
 				45495004234C726100A62019 /* DisplayMode.m in Sources */,
 			);
@@ -1099,7 +1105,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 786U8KZNGH;
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
 				INFOPLIST_FILE = reactNativeTodayWidgetScaffolding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1119,7 +1125,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 786U8KZNGH;
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
 				INFOPLIST_FILE = reactNativeTodayWidgetScaffolding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1145,7 +1151,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 786U8KZNGH;
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = widget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
@@ -1176,7 +1182,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 786U8KZNGH;
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = widget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
