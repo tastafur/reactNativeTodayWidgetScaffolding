@@ -34,6 +34,20 @@
                ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "45494FE1234C6AED00A62019"
+               BuildableName = "widget.appex"
+               BlueprintName = "widget"
+               ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

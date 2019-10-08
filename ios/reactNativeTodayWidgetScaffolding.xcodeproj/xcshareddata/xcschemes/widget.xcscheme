@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "1030"
+   wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
+      parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -14,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact.a"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
+               BlueprintIdentifier = "45494FE1234C6AED00A62019"
+               BuildableName = "widget.appex"
+               BlueprintName = "widget"
+               ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,23 +29,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "reactNativeTodayWidgetScaffolding-tvOS.app"
-               BlueprintName = "reactNativeTodayWidgetScaffolding-tvOS"
-               ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactNativeTodayWidgetScaffolding-tvOSTests.xctest"
-               BlueprintName = "reactNativeTodayWidgetScaffolding-tvOSTests"
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "reactNativeTodayWidgetScaffolding.app"
+               BlueprintName = "reactNativeTodayWidgetScaffolding"
                ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,23 +43,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactNativeTodayWidgetScaffolding-tvOSTests.xctest"
-               BlueprintName = "reactNativeTodayWidgetScaffolding-tvOSTests"
-               ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeTodayWidgetScaffolding-tvOS.app"
-            BlueprintName = "reactNativeTodayWidgetScaffolding-tvOS"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "reactNativeTodayWidgetScaffolding.app"
+            BlueprintName = "reactNativeTodayWidgetScaffolding"
             ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeTodayWidgetScaffolding-tvOS.app"
-            BlueprintName = "reactNativeTodayWidgetScaffolding-tvOS"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "reactNativeTodayWidgetScaffolding.app"
+            BlueprintName = "reactNativeTodayWidgetScaffolding"
             ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -107,14 +84,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeTodayWidgetScaffolding-tvOS.app"
-            BlueprintName = "reactNativeTodayWidgetScaffolding-tvOS"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "reactNativeTodayWidgetScaffolding.app"
+            BlueprintName = "reactNativeTodayWidgetScaffolding"
             ReferencedContainer = "container:reactNativeTodayWidgetScaffolding.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
